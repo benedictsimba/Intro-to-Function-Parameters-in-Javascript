@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<title></title>
+
+<head>
+    <script>
+        function hello(name, age) {
+            document.write("Hello " + name + ", so you are  " + age + " years old!")
+        }
+    </script>
+</head>
+
+<body>
+    <p>An example of a function working anywhere in the code</p>
+    <form>
+        <input type="button" name="HELLO" value="HELLOW" onclick="hello('Simba', 30)" </form>
+</body>
+
+</html>
